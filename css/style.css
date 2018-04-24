@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+  font-family: Montserrat;
+}
+
+.holder{
+  width: 100%;
+  height: 600px;
+  background: url('https://static.pexels.com/photos/459654/pexels-photo-459654.jpeg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+.orange1{
+  background-color: #e65100;
+}
+
+.orange2{
+  background: #bf360c;
+}
+.orange3{
+  background: #ffe0b2;
+}
+.orange4{
+  background: #ff6f00;
+}
+.gray1{
+  background:#e0e0e0;
+}
+.gray2{
+  background: #bdbdbd;
+}
+.gray3{
+  background: #eeeeee;
+}
+.black{
+  background: #000;
+}
+.holder1{
+   /*background-color: #e65100;*/
+  background-color:#e0e0e0;
+}
+.holder3{
+  background: #000;
+  color: #ff6f00;
+  height: 600px;
+}
+.holder4{
+  background: #e65100;
+}
+
+
+
+.transparent{
+  border-radius: 0;
+  border: 0;
+  background: none;/* This gan gan gives it the zero transparent effect*/
+  /*background: rgba(0,0,0,0.2);This gives a fine transparent effect*/
+}
+
+.holder .navbar-nav li a {
+  color:#ff6f00;
+}
+
+.holder .navbar-brand{
+  color: #ff6f00;
+}
+
+.holder2{
+  margin-left:50px;
+  width: 300px;
+  height: 500px;
+  background: rgba(0,0,0,0.3);
+  padding: 50px,50px,50px,50px;
+  border: 0;
+}
+
+
+.holder2 .name{
+  margin-top: 210px;
+  width: 370px;
+  height: 70px;
+  padding:10px;
+}
+.holder2 .profession{
+  margin-top: 10px;
+  background: #ff6f00;
+  padding: 10px;
+  height: 50px;
+  text-align: centre;
+}
+
+/* Scroll Effect */
+
+nav.shrink{
+  border-radius: 0;
+  border: 0;
+  background: rgba(0,0,0,0.5);/*This gives a fine transparent effect*/
+}
+
+nav.shrink>li>a{
+  font-size: 10px;
+  padding: 30px 0px 0px 80px;
+  Color: @white;
+}
+
+nav.shrink.navbar-brand{
+  font-size: 20px;
+  padding: 30px 0px 0px 80px;
+  Color: @white;
+}
+
+
+.aboutMe{
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.holder .photo{
+  border-radius: 50%;
+  background:#ff6f00;
+  height: 220px;
+  width: 220px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.sp{
+
+  /*background-color: #e65100;*/
+  background: #bf360c;
+  box-shadow: 0 0 5px rgba(0,0,0,.9);
+
+}
+
+.sp h1,h2{
+  color: #fff;
+}
+.sp h3 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.sp .skills{
+  padding: 15px 20px;
+  background: rgba(0,0,0,.15);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.sp .skills .percent{
+  float: right;
+  color: #fff;
+}
+
+.sp .skills .bar{
+  position: relative;
+  background: #bf360c;
+  width:100%;
+  height: 2px;
+  margin: 15px 0 10px;
+}
+
+.sp .skills .bar .progress{
+  position: relative;
+  width:75%;
+  height: 100%;
+  background: linear-gradient(to right, #e65100,#ffcc80);
+}
+
+/*The small knob*/
+.sp .skills .bar .progress:before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width:12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 25px rgba(41,123,247,1);
+}
+
+/*Color Gradient reference:......https://mdbootstrap.com/css/colors/*/
+
+
+#about{
+  background;
+}
+
+#contact{
+  background: #e65100;
+}
+
+input[type="text"], input[type="phone"], input[type="email"]{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 50px;
+  border: 0;
+  background-color:#bf360c;
+  color: #fff;
+}
+
+
+.btn-primary{
+  background: black;
+  color: orange;
+  border: 0;
+}
+
+.btn-primary:hover{
+  background: black;
+  color: orange;
+
+}
+
+#sel1{
+  display: block;
+  margin-bottom: 20px;
+  padding: 2px 10px 2px 50px;
+  border: 0;
+  background-color:#bf360c;
+  color: #fff;
+}
+
+textarea { /*Text area is a very stuborn input element and so i styled it inline*/
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 50px;
+  border: 0;
+/*   background-color:#bf360c; */
+  outline: none;
+  resize: none;
+  overflow:auto;
+}
+
+footer {
+  background-color:#000;
+  height: 200px;
+  padding: 50px;
+  text-decoration: none;
+}
+
+footer a{
+  color: #e65100;
+
+}
+
+footer a h2:hover{
+  color: #e65100;
+
+}
+
+footer ul li{
+  list-style: none;
+
+}
+
+footer ul li a{
+  color: #e65100;
+}
+
+footer ul li a:hover{
+  color: #fff;
+}
